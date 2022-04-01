@@ -18,7 +18,7 @@ plot(YearFirstKill, TimeToArrest)
 
 ```{r}
 unique(Motive)
-plot(TimeToArrest ~ YearFirstKill, pch=16, col=as.factor(Race))
+plot(TimeToArrest ~ YearFirstKill, pch=15, col=as.factor(Race))
 ```
 
 ```{r}
